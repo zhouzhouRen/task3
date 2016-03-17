@@ -1,0 +1,53 @@
+div{
+		box-sizing: border-box;
+	}
+
+#container,#fd,#sd,#td{
+	padding: 20px;
+	border: 1px solid #999;
+}
+
+#container{
+	margin:0 auto;
+	background-color: #eee;
+	height: auto;
+	overflow: hidden;
+}
+
+#fd{	
+	width: 200px;
+	background-color: white;
+	position: relative;
+	float: left;	
+}
+#fdlogo{
+	width: 80px;
+	float: left;
+
+    border: 1px solid #999;
+}
+#fdname{
+	float: right;
+}
+
+
+#td{
+	width: 120px;
+	float: right;
+	background-color: white;
+}
+#td img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	border: 1px solid #999;
+}
+
+#sd{
+	margin-left: 220px;
+	margin-right: 140px;
+	background-color: white;
+}
+
+
+
